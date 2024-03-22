@@ -26,15 +26,21 @@
     margin-bottom: 30px;
 }
 
-.footer_container li a {
+
+.footer_contato li a {
     color: #fff;
     text-decoration: none;
 }
-.footer_container li a:hover {
-    background: linear-gradient(to right, #c2f84c, #48a301);
+.footer_contato .linkedin:hover {
+    background: linear-gradient(to right,#fff, #518eca,#2471be,#2a74be,#136bc4,#0A66C2);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+ .footer_contato .github:hover {
+    background: linear-gradient(to right,#ffffff, #b57df5,#a866f5,#a35bf5,#8221f1,#8720fd,#7a12f1,#7700ff);
+    background-clip: text; 
+    -webkit-text-fill-color: transparent;
+ }
 
 @media (max-width: 700px){
     .footer_container{
